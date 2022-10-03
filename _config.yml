@@ -107,30 +107,24 @@ author:
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "그냥 사는 사람의 블로그"
   location: "South Korea"
-  email: "bombcoding@gmail.com"
+  email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "bombcoding@gmail.com"
+      url: "bombcoding@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://kyj2471.github.io"
+      url: "https://kyj2471.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/kyj2471"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/kyj2471"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/kyj2471"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/kyj2471"
 
 # Reading Files
 include:
@@ -196,7 +190,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 # Plugins (previously gems:)
 plugins:
